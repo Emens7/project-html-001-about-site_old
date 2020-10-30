@@ -33,6 +33,7 @@ h3 {
   text-align: left;
 }
 
+
 .fl {
   float:left;
   margin:50px;
@@ -216,6 +217,11 @@ section {
     text-align: right;
     padding-bottom: 20px;;
     
+  }
+
+  .bayern-button {
+    text-align: center;
+    padding: 20px;;
   }
 
 .column {
