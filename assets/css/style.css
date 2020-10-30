@@ -74,6 +74,12 @@ p, .column {
   float: left;
 }
 
+.img_boss {
+   float: left;
+   width: 300px;
+   padding-right: 100px;
+}
+
 .left {
   float: left;
   width: 15%;
@@ -229,7 +235,7 @@ section {
   width: 30%;
   padding: 10px;
   height: 300px;
-  margin: 20px;;
+  margin: 15px;;
   background-color: #C60903;
   border-radius: 5px;
   color: beige;
@@ -277,7 +283,7 @@ section {
   .responsive {
     padding: 0 6px;
     float: left;
-    width: 24.99999%;
+    width: 33.3%;
   }
   
   @media only screen and (max-width: 700px) {
