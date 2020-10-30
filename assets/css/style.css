@@ -97,11 +97,24 @@ p, .column {
     padding: 5px 20px;
 }
 
+.section_small {
+  float: left;
+  width: 80%;
+  padding: 10px;
+  height: 280px;
+  margin: 15px;;
+  background-color: #C60903;
+  border-radius: 5px;
+  color: beige;
+  font-size: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+}
+
 .section1 {
   float: left;
-  width: 98;
+  width: 80%;
   padding: 10px;
-  height: 380px;
+  height: 400px;
   margin: 15px;;
   background-color: #C60903;
   border-radius: 5px;
@@ -112,7 +125,7 @@ p, .column {
 
 .section2 {
   float: left;
-  width: 29.5%;
+  width: 80%;
   padding: 10px;
   height: 600px;
   margin: 15px;;
