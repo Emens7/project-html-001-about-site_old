@@ -3,15 +3,17 @@
 }
 
 body {
-    background: linear-gradient(-45deg, #35577D, #141E30);
-    margin: 0;
+    background-image: url('/assets/image/red.jpg');
+    background-repeat: repeat;
+      margin: 0;
     padding: 0;
 }
 
 .head {
     text-align: left;
     grid-row: 1;
-    background: linear-gradient(-45deg, #141E30, #35577D);
+    height: 50px;
+    background: #C60903;
 }
 
 
@@ -22,22 +24,36 @@ h1 {
     text-shadow: 2px 2px 4px #000000;
 }
 
-p {
+h2 {
+  text-align: left;
+}
+
+h3 {
+  color: black;
+  text-align: left;
+}
+
+.fl {
+  float:left;
+  margin:50px;
+  width:150px;
+  height:150px;
+}
+
+.paragraph{
     color: black;
-    padding-left: 0px;
     text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 p, footer {
   text-align: center;
+  color: whitesmoke;
 }
 
 p, .column {
   color: azure;
-}
-
-p, section {
-  color: #253B58;
 }
 
 .responsive {
@@ -48,6 +64,13 @@ p, section {
 
 .responsive_sajat {
   width: 100%;
+  border-radius: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+}
+
+.img_round {
+  border-radius: 50%;
+  float: left;
 }
 
 .left {
@@ -64,7 +87,6 @@ p, section {
     background-color: whitesmoke;
     border-radius: 5px;
     padding: 5px 20px;
-    
 }
 
 section {
@@ -116,14 +138,14 @@ section {
   }
   
   .topnav a.active {
-    background-color:  #325175;
+    background-color:  #e96107;
     color: white;
   }
 
   .button {
     display: inline-block;
-    background-color:  #253B58;
-    border: 2px solid  #253B58;
+    background-color:  #C60903;
+    border: 2px solid  #C60903;
     border-radius: 5px;
     color: #FFFFFF;
     text-align: center;
@@ -174,8 +196,8 @@ section {
   }
   
   .nav a {
-    background: #325175;
-    border: 1px solid #325175;
+    background: #C60903;
+    border: 1px solid #C60903;
     border-radius: 3px;
     color: white;
     display: inline-block;
@@ -186,7 +208,7 @@ section {
   
   .nav a:hover {
     background: white;
-    border: 1px solid #325175;
+    border: 1px solid ;
     color: #325175;
   }
 
@@ -202,7 +224,7 @@ section {
   padding: 10px;
   height: 300px;
   margin: 20px;;
-  background-color: #325175;
+  background-color: #C60903;
   border-radius: 5px;
   color: beige;
 }
