@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/assets/css/style.css" type="text/css" rel="stylesheet">
+    <title>About</title>
+</head>
+<body class=grid style="overflow:auto">
+    <header class="head" id="head">
+        <h1>Magyar István weboldala</h1>
+    </header>
+
+    <nav class="nav" id="box2"> 
+        <a href="index.html">Főoldal</a>
+        <a href="works.html">Munkák</a>
+        <a  href="gallery.html">Fotók</a>
+        <a class="active" href="about.html">About</a>
+    </nav>
+
+    <section class="left">
+        
+    </section>
+
+    <main class="main">
+
+        <section>
+
+            <h2>Ha további kérdésed van írj!</h2>
+
+                <form action="mailto:magyaristvanlaszlo@gmail.com" method="post" enctype="text/plain">
+                Név:<br>
+                <input type="text" name="name" pattern=".{5,}" required placeholder='Minimum 5 karaktert írj'><br>
+                E-mail:<br>
+                <input type="text" name="mail"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+                Üzenet:<br>
+                 <textarea id="textarea" name="textarea"  rows="10" cols="50" minlength="25" maxlength="250">Legalább 25 karaktert írj!</textarea> <br>
+                <input type="submit" value="Elküld">
+                <input type="reset" value="Töröl">
+                </form>
+
+        </section>
+
+    </main>
+
+    <section class="right">
+      
+    </section>
+
+    <footer class="footer">
+
+        <nav class="nav"> 
+            <a class="active" href="index.html">Főoldal</a>
+            <a href="works.html">Munkák</a>
+            <a href="gallery.html">Fotók</a>
+            <a href="about.html">About</a>
+        </nav>
+
+        <p>Készült: 2020</p>
+
+        <div class="footer-button">
+            
+        <button class="button" style="vertical-align:middle"><a href="#head"><span>Vissza az oldal tetejére</span></a></button>
+
+        </div>
+        
+    </footer>
+
+</body>
+
+</html>
